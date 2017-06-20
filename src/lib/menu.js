@@ -35,7 +35,7 @@
       }
       if (this.creating || !this.top_menu) {
         delay(0.5).then(function () {
-          Menus.create
+          Menus.create();
         });
         return;
       }
